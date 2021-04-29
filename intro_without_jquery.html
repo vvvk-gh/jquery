@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.addEventListener("DOMContentLoaded", function(){
+            let ele = document.getElementById("content");
+            let para = document.createElement("p");
+            let text = document.createTextNode("This is a paragraph");
+            para.appendChild(text);
+            ele.appendChild(para);
+           
+        });
+
+
+    </script>
+</head>
+<body>
+    <h1>With out Jquery 1 -Append</h1>
+    <h2></h2>
+    <div id="content">
+        <!-- Loading content... -->
+    </div>
+</body>
+</html>
