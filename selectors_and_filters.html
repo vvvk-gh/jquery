@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jquery 2 </title>
+    <script src="./jquery.js"></script>
+    <script>
+        $("document").ready(function(){
+            //Selectors
+            $("p").css("border" , "3px solid green");
+            $(".heading").css("color" , "blue");
+            //Filters
+            $("p:first").css("border" , "5px solid red");
+            $("h3:not(#selectors)").css("color" , "violet");
+        })
+    </script>
+    
+</head>
+<body>
+    <h1 class="heading">Selectors and Filters </h1>
+    <h3 class="heading">These are used to find and extract,refine the parts of your webpage</h3>
+    <div id="content">
+        <h3 id="selectors">Selectors</h3>
+        <p>This are used to select the part of the webpage</p>
+        <p>This is second para</p>
+        <h3 id="Filters">Filters</h3>
+        <p>This are used to refine the selected data</p>
+        <p>This is a para</p>
+        <p>This is a para</p>
+    </div>
+
+</body>
+</html>
