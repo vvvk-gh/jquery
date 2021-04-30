@@ -57,3 +57,19 @@
 
     $('*'); //selects all the elements in the page
     ```
+
+  - Basic Fiilters
+
+    ```js
+    :first, :last  // First and last of the given selector.
+
+    :even, :odd //Only even or odd items in the matched set.
+
+    :gt(), :lt(), :eq() //Items greter than, less than, or equal to an index.
+
+    :animated  //Items that are in process of being animated.
+
+    :focus //The element that currently has the focus.
+
+    :not(expr) //Elements that dont match the given expression.
+    ```
