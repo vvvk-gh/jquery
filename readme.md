@@ -51,7 +51,9 @@
 
     $('#identifier'); //selects the elements with that id.
 
-    $('tagName.className'); //selects all the elements with that tagname having that class.
+    $('tagName.className'); //selects all the elements with that tagname having matching class.
 
-    $('tagName#id.className'); //selects all the elements of a tag having both id and class.
+    $('tagName#id.className'); //selects all the elements of a tag having both matching id and class.
+
+    $('*'); //selects all the elements in the page
     ```
