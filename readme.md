@@ -127,3 +127,8 @@
 
   each(callback); //loops over a set of matched ele's and calls the function for each one.
   ```
+
+- Statement Chaining : call multiple functions on a single result set within the same line of code.
+  ```js
+  $('selector').fn1().fn2().fn3();
+  ```
