@@ -132,3 +132,11 @@
   ```js
   $('selector').fn1().fn2().fn3();
   ```
+- Creating content :
+
+  ```js
+  html(str) or html(); //to set or retrive the html content on the page.
+  //replaces the whole content with the given html string.
+
+  text(str) or text(); //to set or retrive the text content of an ele
+  ```
