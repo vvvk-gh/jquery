@@ -73,3 +73,15 @@
 
     :not(expr) //Elements that dont match the given expression.
     ```
+
+  - Hirarchy Selectors : Selects the element based on their position in DOM tree. They work by examining the position of target elements relative to the other elements.
+
+  ```js
+  $('parent > child'); //selects the direct child of the parent
+
+  $('ancestor desendant'); //selects all the desendants down the line.
+
+  $('prev + next'); //selects all the siblings and all sibilings down the line.
+
+  $('prev ~ next'); //selects the adjcent sibiling to its previous.
+  ```
