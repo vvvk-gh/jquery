@@ -74,14 +74,28 @@
     :not(expr) //Elements that dont match the given expression.
     ```
 
-  - Hirarchy Selectors : Selects the element based on their position in DOM tree. They work by examining the position of target elements relative to the other elements.
+  - Hirarchy Selectors : Selects the element based on their position in DOM tree.
 
-  ```js
-  $('parent > child'); //selects the direct child of the parent
+    They work by examining the position of target elements relative to the other elements.
 
-  $('ancestor desendant'); //selects all the desendants down the line.
+    ```js
+    $('parent > child'); //selects the direct child of the parent
 
-  $('prev + next'); //selects all the siblings and all sibilings down the line.
+    $('ancestor desendant'); //selects all the desendants down the line.
 
-  $('prev ~ next'); //selects the adjcent sibiling to its previous.
-  ```
+    $('prev + next'); //selects all the siblings and all sibilings down the line.
+
+    $('prev ~ next'); //selects the adjcent sibiling to its previous.
+    ```
+
+  - Attribute Selectors : Selects the elements in the webpage that have attribute values matching the criteria.
+
+    ```JS
+    $('ele[attr]');         //ele macthing attr (class, id )
+
+    $('ele[(attr = val)]');  //ele has attr who value is val.
+
+    $('ele[(attr ^= val)]'); //ele attr value starts with the val.
+
+    $('ele[(attr *= val)]'); //ele attr value has any substring of val
+    ```
