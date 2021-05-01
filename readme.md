@@ -99,3 +99,17 @@
 
     $('ele[(attr *= val)]'); //ele attr value has any substring of val
     ```
+
+  - Advanced Filters
+
+    ```js
+    :contains('text') //selects the ele the has the matching text.
+
+    :has(selector) //selects atleast one ele that macthes the selector.
+
+    :parent //selects ele that have atleast one child node (ele or text).
+
+    :first-child, last-of-type //selects the ele based on the relations (fisrt child , last child of a parent ele)
+
+    :nth-child(2) , nth-child(2n) //selects the child matching the mentioned index.
+    ```
