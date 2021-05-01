@@ -113,3 +113,17 @@
 
     :nth-child(2) , nth-child(2n) //selects the child matching the mentioned index.
     ```
+
+- Traversing the documents with Jquery.
+
+  ```js
+  children(); // Retrives all the child ele's of the matched elements, expect text nodes.
+
+  parents(), next(), prev(); //used to traverse the family relations of an element
+
+  parentsUntil($('selector')); //get all the parent elements upto matched selector and the matched selector is not included.
+
+  find('selector'); //searchs from the given ele to find the ele's that match the selector expression.
+
+  each(callback); //loops over a set of matched ele's and calls the function for each one.
+  ```
