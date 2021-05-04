@@ -133,6 +133,7 @@
 
   each(callback); //loops over a set of matched ele's and calls the function for each one.
   ```
+  [Example](https://github.com/vvvk-gh/jquery/blob/master/traversing_finished.html)
 
 - Statement Chaining : call multiple functions on a single result set within the same line of code.
   ```js
@@ -146,3 +147,4 @@
 
   text(str) or text(); //to set or retrive the text content of an ele
   ```
+  [Examples](https://github.com/vvvk-gh/jquery/blob/master/creating_finished.htm)
