@@ -57,7 +57,7 @@
 
     $('*'); //selects all the elements in the page
     ```
-      Examples : [Implementation](https://github.com/vvvk-gh/jquery/blob/master/BasicSelectors_finished.htm)
+      Examples : [Basic Selector Implementation](https://github.com/vvvk-gh/jquery/blob/master/BasicSelectors_finished.htm)
 
   - Basic Fiilters
 
@@ -74,6 +74,7 @@
 
     :not(expr) //Elements that dont match the given expression.
     ```
+      Example : [Basic Filters Implementation](https://github.com/vvvk-gh/jquery/blob/master/BasicFilters_finished.html)
 
   - Hirarchy Selectors : Selects the element based on their position in DOM tree.
 
@@ -89,6 +90,7 @@
     $('prev ~ next'); //selects the adjcent sibiling to its previous.
     
     ```
+    [Examples](https://github.com/vvvk-gh/jquery/blob/master/HierCombo_finished.html)
 
   - Attribute Selectors : Selects the elements in the webpage that have attribute values matching the criteria.
 
@@ -101,6 +103,7 @@
 
     $('ele[(attr *= val)]'); //ele attr value has any substring of val
     ```
+    [Examples](https://github.com/vvvk-gh/jquery/blob/master/AttrFilters_finished.html)
 
   - Advanced Filters
 
@@ -115,6 +118,7 @@
 
     :nth-child(2) , nth-child(2n) //selects the child matching the mentioned index.
     ```
+    [Examples](https://github.com/vvvk-gh/jquery/blob/master/ChildVisCont_finished.html)
 
 - Traversing the documents with Jquery.
 
