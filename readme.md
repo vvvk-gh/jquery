@@ -213,3 +213,26 @@
      ```
     [Examples](https://github.com/vvvk-gh/jquery/blob/master/data_finished.html)
       
+   - Inserting Document content :  There are two sets of insertion functions: one set for inserting content inside of other content, and one for inserting outside of other content.
+
+   
+   ```js
+      
+        append(): Appends content to the inside of the matched elements
+        
+        prepend(): Prepends content to the inside of the matched elements
+        
+        appendTo(): Appends the specified content to the inside of the matched elements
+        
+        prependTo(): Prepends the specified content to the inside of the matched elements
+        
+        after(): Appends content to the outside of the matched elements
+        
+        before(): Prepends content to the outside of the matched elements
+        
+        insertAfter(): Takes the specified content and appends it outside of the specified elements
+        
+        insertBefore(): Takes the specified content and prepends it outside of the specified elements
+        
+   ```
+   [Examples](https://github.com/vvvk-gh/jquery/blob/master/inserting_finished.htm)
