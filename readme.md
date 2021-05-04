@@ -148,3 +148,42 @@
   text(str) or text(); //to set or retrive the text content of an ele
   ```
   [Examples](https://github.com/vvvk-gh/jquery/blob/master/creating_finished.htm)
+  
+  - Altering Document Content
+  
+  ```js
+  
+      wrap()            wrap the matched elements with the specified content
+      
+      wrapAll()         wrap content around the matched elements as a group
+      
+      unWrap()          remove the parents from the matched elements
+      
+      empty()           remove all the child elements from the matched elements
+      
+      remove()          removes elements from the page, including any embedded data and event handlers
+      
+      detach()          removes elements from the page, but maintains embedded data and event handlers
+      
+      replaceAll()      replaces the matched elements with the specified content
+      
+      replaceWith()     replaces matched elements with content or the results of a callback function
+      
+  ```
+  [Examples](https://github.com/vvvk-gh/jquery/blob/master/altering_finished.htm)
+  
+    - Manipulating Document
+    
+    ```js
+            
+            attr(): get the value of an attribute
+
+            attr(name,val) set the  name attribute to val
+
+            attr({ name: val ... }) set multiple attributes in one call
+              
+            removeAttr(<i>name</i>)</code>: remove the attribute from the element
+    ```
+    [Examples](https://github.com/vvvk-gh/jquery/blob/master/attributes_finished.htm)
+    
+    
