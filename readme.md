@@ -186,4 +186,30 @@
     ```
     [Examples](https://github.com/vvvk-gh/jquery/blob/master/attributes_finished.htm)
     
-    
+    - CSS functions
+      
+      ```js
+        width() and height(): get or set the width/height of an element
+        
+        innerWidth() and innerHeight(): get or set the inner width/height of an element
+        
+        outerWidth() and outerHeight(): get the outer width/height of an element
+        
+        offset(): get coordinates of element relative to the document
+        
+        position(): get coordinates of element relative to the offset parent
+        
+      ```
+      [Examples](https://github.com/vvvk-gh/jquery/blob/master/css_finished.htm)
+      
+     - Using the Data Methods
+     
+     ```js
+      data() : To get all the data attributes on that selector
+      
+      data(key, value) : to get matching elements containg matching attribute value 
+      
+      removeData(key) : to remove the data attr from the elem.
+     ```
+    [Examples](https://github.com/vvvk-gh/jquery/blob/master/data_finished.html)
+      
