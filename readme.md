@@ -236,3 +236,18 @@
         
    ```
    [Examples](https://github.com/vvvk-gh/jquery/blob/master/inserting_finished.htm)
+   
+   - css class manipulation
+   
+   ```js
+        css(): get or set CSS properties on the matched elements in a variety of ways
+        
+        hasClass(className): determine whether a page element has a certain class
+        
+        addClass(className | function): add the given CSS class to the elements in the matched set
+        
+        removeClass(className | function): remove the given CSS class from the elements in the matched set
+        
+        toggeClass(className | function): add or remove the given CSS class to the elements in the matched set depending on whether it is already                                               there
+   ```
+   [Examples](https://github.com/vvvk-gh/jquery/blob/master/props_finished.htm)
