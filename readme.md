@@ -42,7 +42,7 @@
   });
   ```
 
-  - Basic selectors
+  - Basic selectors 
 
     ```js
     $('tagName'); //selects all the elements with that tag name.
@@ -57,6 +57,7 @@
 
     $('*'); //selects all the elements in the page
     ```
+      Examples : [Implementation](https://github.com/vvvk-gh/jquery/blob/master/BasicSelectors_finished.htm)
 
   - Basic Fiilters
 
@@ -86,6 +87,7 @@
     $('prev + next'); //selects all the siblings and all sibilings down the line.
 
     $('prev ~ next'); //selects the adjcent sibiling to its previous.
+    
     ```
 
   - Attribute Selectors : Selects the elements in the webpage that have attribute values matching the criteria.
